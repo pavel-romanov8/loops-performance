@@ -1,0 +1,16 @@
+{
+  "name": "performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loops.js",
+  "type": "module",
+  "scripts": {
+    "measure:for-each": "node for-each-array-method.js",
+    "measure:for": "node for-loop.js",
+    "measure:for-of": "node for-of-loop.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
